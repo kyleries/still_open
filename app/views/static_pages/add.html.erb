@@ -1,166 +1,164 @@
-<title>WHERE'S STILL OPEN</title>
-
-<div class="container">
-  <div class="nav pull-right">
+<div class="row mtop0">
+  <div class="nav span6 offset4 mbot0 tac">
     <ul>
-      <li>HOME</li>
-      <li>ABOUT</li>
-      <li>CONTACT</li>
+      <li class="blue b">HOME</li>
+      <li class="blue b">ABOUT</li>
+      <li class="blue b">CONTACT</li>
+      <li class="blue b logo"><%= image_tag("logo.png", size: "50 x 50", class: "logo") %></li>
     </ul>
   </div>
-  
-  <div class="row">
-    <h1>ADD A BUSINESS</h1>
-  </div>
-  
-  <div class="row">
-    <h6>Please check the business isn't already in the directory before creating a new entry.</h6>
-    <h6>* Mandatory Field</h6>
-  </div>
-  
-  <div class="row">
-    <div class="container-box span8">
-      <h4>Business information</h4>
-      <form class="form-horizontal">
-        <div class="span5">
-          <div class="control-group">
-            <label class="control-label">Name*</label>
-            <div class="controls">
-              <input type="text" placeholder="Name">
-            </div>
-          </div>
-      
-          <div class="control-group">
-            <label class="control-label">Location*</label>
-            <div class="controls">
-              <input type="text" placeholder="Location">
-            </div>
-          </div>
-      
-          <div class="control-group">
-            <label class="control-label">Address*</label>
-            <div class="controls">
-              <input type="text" placeholder="Address">
-            </div>
-          </div>
-      
-          <div class="control-group">
-            <label class="control-label">Postcode*</label>
-            <div class="controls">
-              <input type="text" placeholder="Postcode">
-            </div>
-          </div>
-      
-          <div class="control-group">
-            <label class="control-label">Map</label>
+</div>
+<div class="row span6 offset2">
+  <h3 class="blue b">ADD A BUSINESS</h3>
+</div>
 
-          </div>
-      
-          <div class="control-group">
-            <label class="control-label">Phone</label>
-            <div class="controls">
-              <input type="text" placeholder="Phone">
-            </div>
-          </div>
-      
-          <div class="control-group">
-            <label class="control-label">Website</label>
-            <div class="controls">
-              <input type="text" placeholder="Website">
-            </div>
-          </div>
-      
-          <div class="control-group">
-            <label class="control-label">Tags</label>
-            <div class="controls">
-              <input type="text" placeholder="Tags">
-            </div>
-          </div>
-      </div>
-      
-      <div class="span3">
-        <div class="control-group mtop100">
-          <label class="control-label">Latitude</label>
+<div class="row span6 offset2">
+  <h6 class="mbot0">Please check the business isn't already in the directory before creating a new entry.</h6>
+  <h6 class="mtop0">* Mandatory Field</h6>
+</div>
+
+<div class="row">
+  <div class="container-box span8 offset4">
+    <h4>Business information</h4>
+    <form class="form-horizontal">
+      <div class="span5">
+        <div class="control-group">
+          <label class="control-label">Name*</label>
           <div class="controls">
-            <input type="text">
+            <input type="text" placeholder="Name">
           </div>
         </div>
     
         <div class="control-group">
-          <label class="control-label">Longitude</label>
+          <label class="control-label">Location*</label>
           <div class="controls">
-            <input type="text">
+            <input type="text" placeholder="Location">
           </div>
         </div>
-      </div>
-      </form>
+    
+        <div class="control-group">
+          <label class="control-label">Address*</label>
+          <div class="controls">
+            <input type="text" placeholder="Address">
+          </div>
+        </div>
+    
+        <div class="control-group">
+          <label class="control-label">Postcode*</label>
+          <div class="controls">
+            <input type="text" placeholder="Postcode">
+          </div>
+        </div>
+    
+        <div class="control-group">
+          <label class="control-label">Map</label>
+
+        </div>
+    
+        <div class="control-group">
+          <label class="control-label">Phone</label>
+          <div class="controls">
+            <input type="text" placeholder="Phone">
+          </div>
+        </div>
+    
+        <div class="control-group">
+          <label class="control-label">Website</label>
+          <div class="controls">
+            <input type="text" placeholder="Website">
+          </div>
+        </div>
+    
+        <div class="control-group">
+          <label class="control-label">Tags</label>
+          <div class="controls">
+            <input type="text" placeholder="Tags">
+          </div>
+        </div>
     </div>
-  </div>
-  
-  <div class="row">
-    <div class="container-box span8">
-      <h4>Normal opening times</h4>
-      <div class="row">
-        <div class="span5 offset1">
-          <p class="grey">Leave blank any days when the business is closed. See how to enter closed for lunch or open past midnight. You can also type midnight (for 12am), and midday (for 12pm).</p>
+    
+    <div class="span3">
+      <div class="control-group mtop100">
+        <label class="control-label">Latitude</label>
+        <div class="controls">
+          <input type="text">
         </div>
       </div>
-      
-      <div class="row">
-        <div class="span1 offset1"><p class="blue">Day</p></div>
-        <div class="span1 offset2"><p class="blue">Opens</p></div>
-        <div class="span1 offset3"><p class="blue">Closes</p></div>
-        <div class="span1 offset4"><p class="blue">Comment</p></div>
+  
+      <div class="control-group">
+        <label class="control-label">Longitude</label>
+        <div class="controls">
+          <input type="text">
+        </div>
       </div>
-      
-      <div class="row">
-        <div class="span1 offset1"><input type="text"></input></div>
-        <div class="span1 offset2"><input type="text"></input></div>
-        <div class="span1 offset3"><input type="text"></input></div>
-        <div class="span1 offset4"><input type="text"></input></div>
+    </div>
+    </form>
+  </div>
+</div>
+
+<div class="row">
+  <div class="container-box span8 offset4">
+    <h4>Normal opening times</h4>
+    <div class="row">
+      <div class="span5 offset1">
+        <p class="grey">Leave blank any days when the business is closed. See how to enter closed for lunch or open past midnight. You can also type midnight (for 12am), and midday (for 12pm).</p>
       </div>
-      
-      <div class="row">
-        <div class="span1 offset1"><input type="text"></input></div>
-        <div class="span1 offset2"><input type="text"></input></div>
-        <div class="span1 offset3"><input type="text"></input></div>
-        <div class="span1 offset4"><input type="text"></input></div>
-      </div>
-      
-      <div class="row">
-        <div class="span1 offset1"><input type="text"></input></div>
-        <div class="span1 offset2"><input type="text"></input></div>
-        <div class="span1 offset3"><input type="text"></input></div>
-        <div class="span1 offset4"><input type="text"></input></div>
-      </div>
+    </div>
+    
+    <div class="row">
+      <div class="span1 offset1"><p class="blue">Day</p></div>
+      <div class="span1 offset2"><p class="blue">Opens</p></div>
+      <div class="span1 offset3"><p class="blue">Closes</p></div>
+      <div class="span1 offset4"><p class="blue">Comment</p></div>
+    </div>
+    
+    <div class="row">
+      <div class="span1 offset1"><input type="text"></input></div>
+      <div class="span1 offset2"><input type="text"></input></div>
+      <div class="span1 offset3"><input type="text"></input></div>
+      <div class="span1 offset4"><input type="text"></input></div>
+    </div>
+    
+    <div class="row">
+      <div class="span1 offset1"><input type="text"></input></div>
+      <div class="span1 offset2"><input type="text"></input></div>
+      <div class="span1 offset3"><input type="text"></input></div>
+      <div class="span1 offset4"><input type="text"></input></div>
+    </div>
+    
+    <div class="row">
+      <div class="span1 offset1"><input type="text"></input></div>
+      <div class="span1 offset2"><input type="text"></input></div>
+      <div class="span1 offset3"><input type="text"></input></div>
+      <div class="span1 offset4"><input type="text"></input></div>
     </div>
   </div>
+</div>
 
-  <div class="row">
-    <div class="container-box span8">
-      <h4>Bank Holiday opening times</h4>
-      <p class="grey">Please select which set of bank holidays this business follows.</p>
-      <p class="blue">See a list of upcoming bank holidays for each area.</p>
-      <<p class="blue">See a list of upcoming bank holidays for each area.</p>
-      <ul>
-        <li>England & Wales</li>
-        <li>Scotland</li>
-        <li>Northern Ireland</li>
-      </ul>
-    
-      <div class="row">
-        <p class="blue span1 inline">Opens</p>
-        <p class="blue span1 inline">Closes</p>
-        <p class="blue span3">Comment</p>
-      </div>
-    
-      <div class="row">
-        <textarea class="w30 inline">Opens</p>
-        <textarea class="w30 inline">Closes</p>
-        <textarea class="w120">Comment</p>
-      </div>
-    
-      <label>Closed</label>
+<div class="row">
+  <div class="container-box span8">
+    <h4>Bank Holiday opening times</h4>
+    <p class="grey">Please select which set of bank holidays this business follows.</p>
+    <p class="blue">See a list of upcoming bank holidays for each area.</p>
+    <<p class="blue">See a list of upcoming bank holidays for each area.</p>
+    <ul>
+      <li>England & Wales</li>
+      <li>Scotland</li>
+      <li>Northern Ireland</li>
+    </ul>
+  
+    <div class="row">
+      <p class="blue span1 inline">Opens</p>
+      <p class="blue span1 inline">Closes</p>
+      <p class="blue span3">Comment</p>
     </div>
+  
+    <div class="row">
+      <textarea class="w30 inline">Opens</p>
+      <textarea class="w30 inline">Closes</p>
+      <textarea class="w120">Comment</p>
+    </div>
+  
+    <label>Closed</label>
   </div>
 </div>
