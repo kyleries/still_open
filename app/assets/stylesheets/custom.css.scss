@@ -49,7 +49,7 @@ h4.bankhol { width: 255px;}
 	width: 100px;
 }
 
-.tar {text-align: center;}
+.tar {text-align: right;}
 
 .form-horizontal .control-label.coord {
 	width: 75px;
@@ -152,3 +152,11 @@ li.bankhol {
 input[type="checkbox"] { margin: 0px 4px 1px 0;}
 
 .input-xxxlarge { width: 300px;}
+
+@media (max-width: 960px) {
+	.tac.add {text-align: right;}
+}
+
+@media (max-width: 767px) {
+	.tac.add {text-align: right;}
+}
