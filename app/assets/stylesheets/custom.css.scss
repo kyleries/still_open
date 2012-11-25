@@ -1,11 +1,20 @@
 html body { background-color: black; }
 
 .container { background:url(background.png) no-repeat center; margin-top: 150px; min-height: 400px;}
-.logo { vertical-align: top; padding-right: 70px;}
+.container.nobg { margin-top: 150px; min-height: 400px; background: none;}
+.logo { vertical-align: top;}
 
-h1 {text-transform: uppercase; -webkit-text-stroke: 1px black; font-weight: bold; font-size: 3.8em; letter-spacing: -3px;}
-h6 { color: grey;}
+.automarg {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	text-align: center;
+}
+
+h1 {text-transform: uppercase; -webkit-text-stroke: 1px black; font-weight: bold; font-size: 3.8em; letter-spacing: -3px; margin-left: -150px;}
+h6, .grey { color: grey;}
 .blue { color: #00c8fc; }
+.white { color: #ccc; }
 .b { font-weight: bold;}
 button { 
 	color: white; 
@@ -15,6 +24,48 @@ button {
 	padding: 5px 10px;
 	height: 34px;
 	margin: 0px;
+}
+
+.inline { display: inline; width: 180px; float: right;}
+
+.container-box {
+	border: 2px solid grey;
+	position: relative;
+}
+
+h4 { 
+	position: relative;
+	top: -20px;
+	left: 20px;
+	background: black;
+	width: 200px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+h4.bankhol { width: 255px;}
+
+.form-horizontal .control-label {
+	width: 100px;
+}
+
+.tar {text-align: center;}
+
+.form-horizontal .control-label.coord {
+	width: 75px;
+	margin-right: 5px;
+}
+
+.input-xlargeplus {
+  width: 350px;
+}
+
+.form-horizontal .controls {
+	margin-left: 120px;
+}
+
+.form-horizontal .control-group {
+	margin-bottom: 5px;
 }
 
 input.text-input {
@@ -36,17 +87,14 @@ li {
 	padding: 10px;
 	text-shadow: black 0.1em 0.1em 0.2em;
 	
-	&:first-child { padding-left: 0;}
-	
+	&:first-child { padding-left: 0;}	
 }
 
-.mtop0 { margin-top: 0px;}
-.mtop25 { margin-top: 25px;}
-.mtop50 { margin-top: 50px;}
-.mtop65 { margin-top: 65px;}
-.mtop70 { margin-top: 70px;}
-.mtop100 { margin-top: 100px;}
-.mbot0 { margin-bottom: 0px;}
+li.bankhol {
+	margin: 2px;
+	padding: 2px;
+	margin-left: 50px;
+}
 
 .home-hero {
 	text-transform: uppercase;
@@ -57,6 +105,22 @@ li {
 	text-shadow: 0.05em 0.05em #333;
 	line-height: 80px;
 }
+
+
+.nom { margin: 0; 	margin-bottom: 30px;}
+.mtop0 { margin-top: 0px;}
+.mtop25 { margin-top: 25px;}
+.mtop50 { margin-top: 50px;}
+.mtop65 { margin-top: 65px;}
+.mleft30 { margin-left: -90px;}
+.movleft30 { margin-left: -70px;}
+.mleft45 { margin-left: 45px;}
+.mtop70 { margin-top: 70px;}
+.mtop100 { margin-top: 100px;}
+.mbot0 { margin-bottom: 0px;}
+.mlefttop15 { margin-left: 15px; margin-top: 15px;}
+
+
 
 .home-hero.small {
 	font-size: 5em;
@@ -74,4 +138,25 @@ li {
 	background: white;
 	opacity: .5;}
 	
-	
+.col1 { width: 60px; padding-left: 10px; text-align:center;}
+.col15 { width: 90px; padding-left: 10px; text-align:center;}
+.col2 { width: 60px; text-align:center; }
+.col3 { width: 60px; text-align:center; }
+.col35 { width: 300px; text-align:left; }
+.col4 { width: 350px; text-align:center; }
+
+
+.vam {vertical-align: middle;}
+.tam {text-align: center;}
+
+input[type="checkbox"] { margin: 0px 4px 1px 0;}
+
+.input-xxxlarge { width: 300px;}
+
+@media (max-width: 960px) {
+	.tac {text-align: right;}
+}
+
+@media (max-width: 767px) {
+	.tac {text-align: right;}
+}
